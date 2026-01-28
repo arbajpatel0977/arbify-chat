@@ -62,7 +62,7 @@ const ProfileUpdate = () => {
 
         } catch (error) {
             console.log("Error in profile update:", error);
-            toast.error("Error updating profile. Please try again.");
+            toast.error("Error updating profile. Please try again.",error.message);
         }
     }
 
@@ -106,5 +106,6 @@ const ProfileUpdate = () => {
         </div>
     )
 }
+
 
 export default ProfileUpdate
