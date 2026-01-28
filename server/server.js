@@ -14,7 +14,8 @@ await connectCloudinary();
 // Define allowed origins for CORS
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://arbify-chat-t7pa.vercel.app'
+    'https://arbify-chat-t7pa.vercel.app',
+    'https://arbify-chat-t7pa-hknyifnui-arbaj-patels-projects.vercel.app/*'
 ];
 
 
@@ -43,3 +44,4 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 
 });
+
